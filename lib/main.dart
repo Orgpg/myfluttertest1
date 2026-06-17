@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'pages/courses_page.dart';
 import 'pages/assignments_page.dart';
 import 'pages/profile_page.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
+        textTheme: GoogleFonts.montserratTextTheme(),
       ),
       home: const MainNavigation(),
     );
